@@ -1,0 +1,949 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A dialogue between fidelity and honesty alias an informer and a chea[t], formerly familiar friends. Together with the advice of Mr· Friendly and his wife Civility, alias fraud and deceit. With the approbation of the most illustrious Princess Justitia.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 71 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A81416</idno>
+            <idno type="STC">Wing D1310B</idno>
+            <idno type="STC">ESTC R224938</idno>
+            <idno type="EEBO-CITATION">99899927</idno>
+            <idno type="PROQUEST">99899927</idno>
+            <idno type="VID">135721</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A81416)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 135721)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2480:26)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A dialogue between fidelity and honesty alias an informer and a chea[t], formerly familiar friends. Together with the advice of Mr· Friendly and his wife Civility, alias fraud and deceit. With the approbation of the most illustrious Princess Justitia.</title>
+               </titleStmt>
+               <extent>[4], 24 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed in the year 1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With a title-page woodcut.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-10</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:135721:1"/>
+            <pb facs="tcp:135721:1" rendition="simple:additions"/>
+            <p>A DIALOGUE BETWEEN <hi>Fidelity</hi> and <hi>Honeſty <hi>Alias</hi>
+               </hi> an <hi>Informer</hi> and a <hi>Chea<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>,</hi> Formerly Familiar Friends.</p>
+            <p>Together with the Advice of Mr. <hi>Friendly</hi> and his Wife <hi>Civility, Alias FRA<g ref="char:V">Ʋ</g>D</hi> and <hi>DECEIT.</hi>
+            </p>
+            <p>With the Approbation of The Moſt Illuſtrious Princes <hi>J<g ref="char:V">Ʋ</g>STITIA.</hi>
+            </p>
+            <figure>
+               <p>Juſtitia in ſe virtutes continet omnes. She bears not the Sword in vain. She is a Terror to Evil Doers. To do Juſtice and Judgment, is more acceptable to the Lord than Sacrifice.</p>
+            </figure>
+            <p>Printed in the Year 1699.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:135721:2"/>
+            <pb facs="tcp:135721:2"/>
+            <head>TO THE Moſt Illuſtrious, Excellent, Judicious, Admired, Pious, Vertuous, Noble, and Renowned Princeſs <hi>J<g ref="char:V">Ʋ</g>STITIA,</hi> and others your Judicial Deligates.</head>
+            <opener>
+               <salute>Great Madam,</salute>
+            </opener>
+            <p>AS the following Dialogue is a Repreſentation of the Miſcarriages of ſeveral Perſons in Authority, who Inſolently inſulting over their Inferiours, Abuſe and Cheat the King and Kingdom, and brand theſe who indeavour to detect their Ville Practiſes; and as every Day produces to your Memory freſh Inſtances of this kind, ſo none can be ſo Competent a Judge in this Matter as your ſelf; and being well aſſured of your Judicious Proceedings, which like the Sun upon the <hi>Meridian,</hi> hath enlightned and preſerved Man<g ref="char:EOLhyphen"/>kind from Rage and Violence, even from the beginning of Time to this Day, I was encouraged to Dedicate the ſame to your Excellency, not that I think it worthy of your Acceptance, but that you being the fiteſt Judge, will prove the beſt Patron; and this being the alone Piece that ever was preſented to you, ſo I hope it will find the more favour with you, and that you will the more readier peruſe and conſider the ſame, it being chiefly intend<g ref="char:EOLhyphen"/>ed to inform your Excellency of ſeverall Illegal and <g ref="char:V">Ʋ</g>nwarran<g ref="char:EOLhyphen"/>table Practiſes committed at Sea, to the great prejudice of His Majeſty, and the whole Nation, particularly the Violent Pro<g ref="char:EOLhyphen"/>ceedings,
+<pb facs="tcp:135721:3"/>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the <g ref="char:V">Ʋ</g>nparallell'd and Barbarous Cruelties and <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> committed againſt Seamen and Marriners, even by thoſe who were commiſſioned and appointed to encourage, ſupport, and <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> them; as alſo the Immodeſt and Scandalous Reflections <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> who in bounden Duty to the king and Government, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to diſcover and detect the ſame, and as the re<g ref="char:EOLhyphen"/>preſſing <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Publick Grievances will much tend to the General Benefit <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Tranquillity of His Majeſty and the whole Nation, ſo the Matter of Fact ſet forth in this Dialgoue, being fairly ſta<g ref="char:EOLhyphen"/>ted and diſcovered, may incite your Excellency to conſider the cauſe of ſo malignant a Diſtemper, and to repel the ſame, by applying ſome healing Medicines ſuitable to the Diſeaſe, which being duly adminiſtred according to the Rules of Juſtice, may re<g ref="char:EOLhyphen"/>lieve the Oppreſſed, and puniſh the Oppreſſor: All which, with Submiſſion, is moſt Humbly offered to your Candid and Judicious Conſideration,</p>
+            <closer>
+               <signed>By the Humble Admirer of all your Vertues, FIDELITY.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb n="1" facs="tcp:135721:3"/>
+            <head>A DIALOGUE BETWEEN <hi>Fidelity</hi> and <hi>Honeſty,</hi> &amp;c.</head>
+            <sp>
+               <speaker>Fidelity.</speaker>
+               <p>MY Old Friend <hi>Honeſty!</hi> I have not ſeen thee this many a Day, I think not in this King's Reign; Pray how do'ſt thou do? Where have you been, that I could nei<g ref="char:EOLhyphen"/>ther ſee you, nor hear from you? Pray where are you go<g ref="char:EOLhyphen"/>ing in haſte?</p>
+            </sp>
+            <sp>
+               <speaker>Honeſty.</speaker>
+               <p>Truly, to tell you the Truth, I have been in the King's Service all the War, and am now going to the Temple amongſt the Lawyers.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>I know you have been in the King's Service and in a good Station a great while; What Succeſs have you had? You have had a brave, and long time to get Money; I hear you have taken a great many Rich Prizes.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>So I have, and have got Money enough, but I am like to be plagued with a Roguiſh Informer.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>For what?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Why truly at the taking the Prizes, I e'en made Hay when the Sun ſhin'd, and Plunder'd them, and Sold them as others did; and for that, my Officers and Marri<g ref="char:EOLhyphen"/>ners,
+<pb n="2" facs="tcp:135721:4"/>has complain'd againſt me, and all becauſe I did not <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, or give them what they pleaſed to take or demand.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why did not you give them their Shares that the King has ordered, and what is allowed by Act of Parliament?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>No, nor never would if I could help it, I'd ſee them <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> firſt like a poor of Damn'd Eternal Dogs; and if <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Commanders has been of my Mind, we would have <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> their Courſe with the War.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Pray how do you mean?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Truly by Unwholſome Food, and by Starving, Whiping, and the Biblo's, <hi>&amp;c.</hi> for by them Engines I have pik'd off a good many my ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why would your Men ſuffer you to abuſe them, and pinch them of the King's Allowance, and not complain?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>No, they did not take it kindly, but were often murmering and complaining.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>And did not you then relieve them?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Yes, I did, and with a Vengeance too; for to be plain, I abuſed them to make them complain, and when they did complain, I had them Tryed by a Council of War for Mutineers, and ſome were Hang'd, and others to avoid the ſame Fate, run away.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why could you be ſo cruel to abuſe Men, and after that, Hang them for complaining?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Tuſh, you talk like a Fool, an Ignorant Coxcomb; why all the world is a Chear, and they are Fools that has not a Hand in it; for by that means I <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, and a great deal of Money to boot.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Pray what Advantage could it be to you to Hang, and make Men run away?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>A great one.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>In what ſence?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Why them that were Hang'd, were Impudent Fel<g ref="char:EOLhyphen"/>lows, that would boldly demand their Right, and did en<g ref="char:EOLhyphen"/>courage others to do ſo too, and would often teſt me, That if they could not have it Aboard, they would have it in ano<g ref="char:EOLhyphen"/>ther place; and to prevent their Cackling, I was obliged to
+<pb n="3" facs="tcp:135721:4"/>turn them out of the way; yet one of the Plaguy Dogs <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, did form a Complaint againſt me; but <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> him <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a leading Card, I was forced to laun<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> good Fleece, and ſend him packing out of the way; and for them that Run, I keep them upon the Ships Book twelve Months after, as I did ſeveral that Dy'd, and by that means I draw'd all their Wages for that time into my own Pocker, beſides their Shares of Prizes, and my honeſt Purſer gain'd their Victuals by the Bargain.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why then your Purſer and you agreed very well.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Yes, he was the principal Tool that I did my Work with, for I could not carry on my Trade without a Conſort; and when the Captain and Purſer is <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, they are able to do Wonders.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>But by the way I underſtand by your Diſcourſe, that you did not Hang, or make them Run meerly out of Cruelty to them, but to ſerve your own private Ends.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Yes, what I did was meerly to ſerve my ſelf, and get Money.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>That I believe; But pray what did your Officers ſay to thoſe Paſſages?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Truly at firſt they would be medling and adviſing me to keep to the ſtrict Rules of the <hi>Maratime Law,</hi> as they call'd it, but when I conſider'd the Inconveniency of it, and how ready they were to ſtir up others, I ſoon got rid of them; the Maſter I turned out at one time, and my Lieu<g ref="char:EOLhyphen"/>tenant I complain'd of at another, and outed him, and by that means I muzzel'd all the reſt, and brought them to know and underſtand <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Obedience,</hi> I made them fawn like Spaniel Dogs; for when once they knew my Temper, an Oath, or a Frown from the, would produce greater Ef<g ref="char:EOLhyphen"/>fects than a Cudgel from ſome.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>By your Diſcourſe you treated your <hi>Marriners</hi> very barbarouſly.</p>
+            </sp>
+            <sp>
+               <speaker>Hon</speaker>
+               <p>Barbarouſly, do you call it? If I had the handling of them again, I'd Sacrifice ſome of thoſe Eternal Dogs for
+<pb n="4" facs="tcp:135721:5"/>Food for the reſt, which if they would not Eat they ſhould <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>That would be the way to Kill 'em all.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Let 'em die, let 'em die and be Damn'd like Dogs and Slaves as they are.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Pray if you Slight, Abuſe, and Murder Men at this rate, how ſhall the King's Ships be Mann'd? None that knows you will come voluntary under your Command.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>I know that, but then I can have a Preſs Warrant, by virtue thereof I can and will force all I meet to ſerve the King, and get Money by the Bargain.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>But if you Preſs thoſe that are not qualified, what Service can they do the King, or how can you get Money by them? I muſt confeſs, I have known a Preſs-Smack has laid in the River a whole Fortnight, attending on a Preſs-Gang, and ſhe carried down near 40 Preſt Men, but they were all cleared, except 2 or 3, and thereby the King was at 40 <hi>l.</hi> Charge for no purpoſe.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>I believe the Smack you ſpeak of belong'd to my Ship, if ſhe did, I got Money by clearing them, beſides what the King allows for every Preſt Man; but as to their Ignorance, if they belong to me, I'll ſoon qualifie them, or make them fly to the Devil.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>All that may be, but if you Preſs Tradeſmen, or their Servants, the Lords of the <hi>Admiralty</hi> will clear them.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>No, not if Seamen be wanting; but if they do, I'll make them pay for their Diet before they go, and that goes into my own Pocket, allowing my Purſer a Snack; beſides every one has not Friends to Petition the <hi>Admiralty,</hi> and them I carry ſecure.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Well, but what uſe can you make of Landmen a<g ref="char:EOLhyphen"/>board of Ship, they are not fit to arreava, or go aloft to hand Sails, all the Curſing and Swearing cannot make them fit for that preſently; beſides, the hurrying of Men on ſuch Service, indangers their Lives, and I have heard of many that has loſt their Lives thereby, and the King has loſt
+<pb n="5" facs="tcp:135721:5"/>many a good Ship too, by the Unskilfulneſs of the Marri<g ref="char:EOLhyphen"/>ners.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>I know that to be true, for it is not long ſince that two of thoſe Ignorant Dogs under my Command, going to take in a Reife in our Maintopſail, came tumbling down like Buffoons; it was the pleaſant'ſt Paſtime in the World to ſee them lie upon the Deck, panting, reaching, and ſtretching like Toads in the Sun; and as for loſing a Ship, that ſignifies nothing, it is a National Charge; beſides, it forces a Trade, and no Body now adays is blamed for that, if they be, they are ſeldom puniſh'd, I have loſt two my ſelf, but I preſently got a Commiſſion for another, and ſo I only leapt out of a worſe into a better.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>I think as you ſay, that Frauds and Miſcarriages in the Navy, are not much minded, if they were, or had been, I be<g ref="char:EOLhyphen"/>lieve we might have managed the late War with leſs than half the Charge we have been at, and made our Enemies truckled long ago; but as you ſay, that wa'nt your Buſineſs, you were for get<g ref="char:EOLhyphen"/>ting of Money; and in this Caſe you were a gainer two ways: Firſt, You got a bigger Ship, and thereby more Honour: And Secondly, A greater allowance of Wages, when a great many others has been hanged in former times for a leſs Fault.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Piſh, them Times are alter'd, beſides, ſome may better ſteal a Horſe than others look over a Hedge; don't you know that Kiſſing goes by Favour; he that has no Friends, ſhall have no Preferment; and he that has, ſhall never ſail nor fear Puniſhment.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>So I underſtand by your Diſcourſe, but would it not been better for the Nation, if Men of Merits had been prefered before Friendſhip? Do you not believe that the Wars might ſooner been ended, and the Taxes abated, and a great deal of Money ſaved, and our Merchants-Ships and Trade been better ſecured, if the State of the War had been better managed.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>You talk of management and ſaving of Money, when I know that the Naval Affairs was never better managed, nor Money ever more plenty than then; I am ſure I never handled more Money in all my Life, than in the Time of the War; I don't know what thoſe timorous Cowards meant that cryed out for a
+<pb n="6" facs="tcp:135721:6"/>Peace, I did all that I could to prolong the War, and if my ſelf and my Friends could have ruled the Roſt, the War ſhould not have been ended this Twenty Years.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>You talk ſtrangely of continuing the War for Twenty Years longer; why don't you conſider what a vaſt Charge it has been to the Nation already? How the Subject has been drain'd by Taxes? How the Nation is involved in Debt, and the Seamen yet unpaid for their paſt Service, and how many Thouſands has been ruin'd by it.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Prethee what have I to do with that, one Man's Loſs, is another's Gain; if I get but Money, all's well, I care not who ſiuks ſo I ſwim: Don't you know the old Proverb? <hi>Every one for himſelf, and God for us all.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why, is that your Country Conſcience to cheat the King and Countrey, and make a Jeſt of it? You'r a fit Man to be a Captain.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Ay, and a true Jeſt too: Don't you know that Kings and Princes are Born to be cheated? Or did not you hear of that honeſt Purſer, who out of a deſire to get Money, ſwore he'd ſerve the Devil for Five Pound a Year? And I think he was much in the right of it: Prithee what is a Man without Money? It is that which all Men aims at, and adores it too; only ſome Puny timorous Fools that are Slaves to Conſcience, that cannot do as they might for fear of him, and by that means they paſs by many a good Booty.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Yes, I do know that Kings and Princes ae born o be cheated by Rogues and Knaves, and ſo are other People too, but that does not make it either Lawful, or Juſtifiable; for he tha cheats the King and Countrey in jeſt, is a Rogue in good earneſt; and as for the Purſer you ſpeak off, he is a notorious Blaſphemer, and a Diſloyal Perſon, one that owns neither God nor the King; who makes his brags, That if he can but pleaſe his Captain, he cares for no Body elſe, ſo tha his Blaſphemous Expreſſions is no way warrantable; and thoſe who you call Timorous Fools, that are afraid of Conſcience, they have diſcharged themſelves like Men of Courage and Prudence, and I could inſtance you the
+<pb n="7" facs="tcp:135721:6"/>Names of ſeveral of them, whoſe Generous and Noble Actions has brought a Scandal on you and your Reputation.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Pray name me one of thoſe Honeſt Men of Courage, or I'll not believe you.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly I don't care for bringing Gentlemens Names upon the Stage, but ſince you have put ſo hard upon me, I'll tell you that I hapned t'other Day to be in a place where ſome of your Ships Company were diſcourſing with ſome belonging to the <hi>Wey<g ref="char:EOLhyphen"/>mouth,</hi> Commanded by Captain <hi>Jumper,</hi> the Argument was a<g ref="char:EOLhyphen"/>bout their Commanders.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Prithee what did my Men ſay?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly nothing in your Praiſe.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Pray what was their Diſcourſe.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Have patience, and I'll tell you: The <hi>Weymouth</hi>'s Men were telling how many Prizes they had taken, and how the Captain returned them to the Officers for Prizes, and paid e<g ref="char:EOLhyphen"/>very Man their Share to the utmoſt Farthing, and what care he conſtantly took of them, and encouraged them on all occaſions, and then merrily fell a Singing in praiſe of him, extolling him to the Skies for his Valour, Juſtice and Civility, and drinking his Health upon their Knees, wiſhed him long Life, Health and Pro<g ref="char:EOLhyphen"/>ſperity, and when they had done, your Men mournfully com<g ref="char:EOLhyphen"/>plain'd of your Severity, and declared all your Villanous Actions as amply as if you were to do it your ſelf; and then they begun a Song in a doleful Tone, complaining of your Barbarity, Injuſtice, and Oppreſſion; the Burthen of the Song was, <hi>The Devil ſhall have him before we will Serve him, and then he will Plague us no more;</hi> and the Concluſion was,</p>
+               <q>
+                  <l>Our Cowardly Captain when we were ingag'd,</l>
+                  <l>He threw down his Sword, and ſheer'd off the Stage;</l>
+                  <l>We ſee him no more whilſt the Battel did laſt,</l>
+                  <l>And Monſieur Surrender'd with the loſs of his Maſt;</l>
+                  <l>And then he ſtarts up, and by <hi>Jove</hi> he did Thunder,</l>
+                  <l>Fall on my brave Boys, and now let us Plunder,</l>
+                  <pb n="8" facs="tcp:135721:7"/>
+                  <l>And ſince by our Courage this Prize we have gain'd,</l>
+                  <l>Go fetch me on Board all the Goods you can find;</l>
+                  <l>And becauſe you ſhan't quarrel in dividing the Pelf,</l>
+                  <l>I'll take and I'll keep the whole Cargo my ſelf:</l>
+                  <l>But our Officers they demanding their Shares,</l>
+                  <l>Were ſome turned out, and ſome Whip'd at the Jears:</l>
+                  <l>To ſee my ſelf Chouſed, I was ready to cry,</l>
+                  <l>But that availed nothing, the De'el a Soll got I;</l>
+                  <l>He Swore 'twas all his own, and that he'd keep it too,</l>
+                  <l>And ſo the King and Seamen were Cheated of their Due,</l>
+                  <l>I know, I know, I know, and I know that is true.</l>
+               </q>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Why is Captain <hi>Jumper</hi> ſuch a Man amongſt them?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Ay, ſo belike, for they all proteſted if they were to go in<g ref="char:EOLhyphen"/>to the Service again, they'd all jump aboard of his Ship, if they could poſſible.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Is that all? Tuſh, I care not what they Sing or ſay of me, ſo I have but the <hi>Guilt,</hi> I'll give them a Commiſſion to ſing ten times more for ſuch another Booty: O the Vertue that is in Gold! It wipes of all Stains: Gold and Impudence, with a little Diabolical Rhethorick, will make a Coward paſs for a Hero.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Well, I'll believe you without Swearing, but now that Trade is over, the War is ended now.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>If the War be over, the Trade of Cheating is not, nor never will ſo long as I am in the Navy.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why if you that are Honeſt are ſuch a Cheater, pray what muſt we expect Knaves will do?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Why are you ſuch a Fool to think that I am Honeſt, be<g ref="char:EOLhyphen"/>cauſe I title my ſelf ſo? No, pray don't miſtake me, for I do aſ<g ref="char:EOLhyphen"/>ſure you that I have wronged the King and the Sailers as much as any Captain that I know; and to be plain, I am for carring on the Trade of Cheating, and am a Cheater altho' I aſſume the Name of <hi>Honeſty;</hi> that is but under a colour, the better to carry on the Trade of Cheating, for you'll underſtand before we part, that the Trade of Cheating will never be laid aſide ſo long as I have a Commiſſion; but pray proceed.</p>
+            </sp>
+            <sp>
+               <pb n="9" facs="tcp:135721:7"/>
+               <speaker>Fid.</speaker>
+               <p>Pray how can you play the Cheat in the Navy now there is no Prizes to be taken?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>A pox of your Ignorance, will you never be wiſe? Don't you know there is more ways to Kill a Dog beſide Hanging? There is a great many ways to get mony without plundering of Prizes: One is ma<g ref="char:EOLhyphen"/>king of Hogs. Secondly, I can take as many Servants as I pleaſe; and if they be never ſo ignorant, I can ſet them down <hi>Midſhipmen,</hi> and <hi>Able:</hi> beſides, I can make mony of the Stores, Proviſions and Materials of the Ship; and if they happen to be diſcovered, I can ſwear they were only Lent, and all is well. It is not long ſince my Ship was unrigged, but I got an Order to have her Rigg'd again pretending to Cruiſe for Rovers; but inſtead thereof I made a Trip to <hi>France,</hi> but meeting with contrary Winds, I ſprung a new Main-maſt beating in.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Prethee tell me what you mean by making of Hogs.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Why the Keeping of men upon th Ship's book when they are dead or run away.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why then what is loſt to the Seamen by running away, is clear profit to the Capt. and I believe that is one Reaſon you are ſo cruel to them. Beſides, I obſerve by your diſcourſe, that you are Eminent in the Art of Tranſmutation; you can turn the Naval Stores into Gold and Silver, I believe you have got the Philoſophers Stone, ſo much talked of. But prethe, What do you mean by going to <hi>France?</hi> That Trade is not open: I have Read in the Weakly Pamphlets, that a great many of our Merchants Ships has come from thence in their <hi>Ballas;</hi> and the reaſon is, becauſe there is ſuch great Duties upon <hi>French</hi> Goods.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>I did not matter the Duties, for I did intend to make my Ad<g ref="char:EOLhyphen"/>vantage of that, for I took in a Parcel of Wine at <hi>Breſt,</hi> and upon my arrival at <hi>Plymouth,</hi> I prevail'd with one of my Men to ſwear it was <hi>Spaniſh</hi> Wine Loaded at St. <hi>Sebaſtains,</hi> and ſome I ſold there to good ad<g ref="char:EOLhyphen"/>vantage; but coming into the River with the reſt, ſome of my Men out of Malice complain'd thereof to an Informer, and then Poor <hi>Sampſon</hi> had like to dye, for the Plot was diſcovered and my Wine was ſeized, which coſt me near 300 <hi>l.</hi> to clear it of the <hi>French</hi> Duties.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Then you were nickt that time.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Ay, Bloodily.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>But what became of the Man that forſwore himſelf to ſerve you, I hope you rewarded him well?</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Truly, I left him in the Lurch to ſhift for himſelf, for as ſoon as he diſcern'd the ſtorm he pikt off, but I loſt nothing by that.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Faith, you are a pretty Gentleman, but ſaving your Diſcourſe if you could carry on that Trade in the Kings Ships, where you are at no
+<pb n="10" facs="tcp:135721:8"/>charge, you muſt needs get a Dam'd deal of Money, but then there will be no occaſion for Merchants to be at the Charge to fit out theirs, and Pay Wages and Victual too, you have a long Head I find for getting of Money, as well in times of Peace as in times of War; and if you were not obſtructed, you would carry all before you, and our Merchants Ships might lay by the Wall to Eternity, for they cannot pretend to ſail at that Rate.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Prethe don't tell me of them, I have told you my mind, and I am for getting of Money if I can, let them look out that has the watch.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>So they did by your Diſcourſe, and catcht you to your Coſt.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>That's too true to make a Jeſt off, but ſaving your Diſcourſe, what muſt I do with this Informer that Proſecutes me?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why do you ask me.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Becauſe I am Informed that you have taken up that Imployment, and as I was unwilling to believe it, ſo I was troubled to hear that you ſhould undertake ſuch a ſcandalous and baſe a Profeſſion which every Honeſt Man abhors.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>That's your miſtake, for all Honeſt Men allow and commend it, and a great many honeſt Commanders that have been in your Station, do commend me for appearing in ſo Good, ſo juſt and Honeſt a cauſe. And the King and the Law allows and requires, and encourages ſo good a work as the only Antidote againſt Rogues and Villains, ſo I deny your Aſſertion, I am no Informer.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>No! Pray, who then Informs againſt my Brother Captain <hi>Q.</hi> Pray, who Informs againſt me?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why truly, you Inform againſt your ſelf and diſcover your own Villany, tho it is in a <hi>Braevado;</hi> but to tell you plain your Officers and Marriners whom you have cheated and abuſed, they Inform againſt you, not out of Spight or Malice, but for Right and Juſtice, and indeed, I am imployed by them, and do appear as an Advocate to Solicit for the King and them.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>That is all one, you may call your ſelf Advocate, or Soliciter, or what you pleaſe, but all of them that you appear againſt, do declare you to be an Informer; and truly if my Friendſhip, or any thing that I can do for you, may obliged you to decline that ſcandalous Name, I ſhould be very glad to ſee you Converted.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why, do you Account them Honeſt Men that I appear againſt.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Yes, I do, and they are Gentlemen of great Honour and Repu<g ref="char:EOLhyphen"/>tation too.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why, if they be Honeſt and Guiltleſs, they need not fear or re<g ref="char:EOLhyphen"/>gard an Informer or Soliciter, no, nor the Law neither, for none of them can or will hurt an Honeſt Man. And if they be Knaves, it would
+<pb n="11" facs="tcp:135721:8"/>be a greater Crime to connive at their Villanies then to complain of their Vices, and yet to gratifie you, if you will decline Cheating, I will leave Informing, and that without reward.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Well, tho you deny the Name of an Informer? You own the Name of Soliciter or Advocate, and that's all one, they have a dependency one upon another in Proſecuting us; and I do hold with ſeveral of my Bre<g ref="char:EOLhyphen"/>thren, and do ſay and affirm to your face that you are an Informer.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Then ſo let it be and call me as you pleaſe, but pray do me the Juſtice to conſider that I am not a petty Vexatious one, that Informs a<g ref="char:EOLhyphen"/>gainſt frivolous offenders, <hi>i. e.</hi> Such as relieve diſtreſſed Beggars at the Door, or thoſe who for Conſcience ſake, refuſe to comply in Ceremo<g ref="char:EOLhyphen"/>nies of Religion, neither did I ever Inform againſt thoſe that pick or lick Gold off of Ginger-bread, <hi>&amp;c.</hi> Yet I do allow there is a ſort of Infor<g ref="char:EOLhyphen"/>mers, that has brought an <hi>odium</hi> upon the Profeſſion, that are not ſit to live in a Civil Government, <hi>i. e.</hi> Horſelers, and othes Informing High way-men, how they may come by a good Booty, Servants Inform<g ref="char:EOLhyphen"/>ing thieves how and when to Rob their Maſters, others Informing againſt their Neighbours for not working, or paying towards repairing the High-way where there is none; Husbands Informing againſt there Wives, and Women againſt their Husbands for not going to Maſs, or not Wor<g ref="char:EOLhyphen"/>ſhipping God againſt Reaſon and Conſcience, <hi>&amp;c.</hi> Others prying into the Cloſets of Kings and Princes, and then diſcovering their ſecrets to their Enemies, Treacherous and Cowardly Sea Captains, Maliciouſly In<g ref="char:EOLhyphen"/>forming againſt and diſmiſſing others of Courage and Fidelity, as was the Caſe of Captain <hi>Desborrow,</hi> &amp;c. Beſides I muſt tell you, that every Man that bears any Office under the King, and every Pariſh Officer, and eve<g ref="char:EOLhyphen"/>ry Man upon Juries of Inqueſt: Yea, and every Freeman of <hi>London</hi> are Sworn to be Informers, and if ſo, then it can be no Crime in me, but an Act of the Higheſt Juſtice to Inform againſt ſuch Villains that has ruin'd Thouſands of His Majeſties Subjects, and Cheated the King and Country to that degree, that the whole Nation Groans with the Cries of the op<g ref="char:EOLhyphen"/>preſſed, whilſt the oppreſſors Glory and Boaſt of their Wickedneſs. Beſides our Great Lawmakers, out of a ſence of Duty to their King and Countrey, have ordained that Informers ſhall be Encouraged for Inform<g ref="char:EOLhyphen"/>ing againſt Publick offenders, and that purely to prevent or puniſh Vil<g ref="char:EOLhyphen"/>lanies. So that an Informer in the proper Sence, is an Officer of Juſtice, and a good one too, provided he appears more for Juſtice then Malice: So then, if I am an Informer, I am one of the higheſt rank, and with your leave, I'll wave the Name of Fidelity, and Acknowledge my ſelf a faithful Informer; provided you will decline the nick Name of Honeſty and appear according to your profeſſion by the Name of Publick Chea<g ref="char:EOLhyphen"/>ter,
+<pb n="12" facs="tcp:135721:9"/>and then we'll proceed if you pleaſe, but pray let it be without Ca<g ref="char:EOLhyphen"/>velling.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>With all my heart, but don't bear too hard upon me; for I was but one that Acted as others did, according to the moad of the times. And certainly that could be no great Crime in me to follow the Faſhi<g ref="char:EOLhyphen"/>ons; Beſides, long cuſtom makes many things both Natural and Law<g ref="char:EOLhyphen"/>ful, which I think you cannot deny.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>It may be, you take your Pedigree from <hi>Cain,</hi> who was the firſt that committed the Heinous Sin of murder, but if you do, that don't make it Lawful or Natural, altho ſome Vicious Men would have it ſo; Pray conſider; Can any thing be more Notorious in thoſe who were im<g ref="char:EOLhyphen"/>ployed with double Sallaries to defend and preſerve the Nation, then for them to Rob it, and as much as in them lay to ruin it, by Plundering what was forbidden by the Law, and by abuſing and piking off the Sea<g ref="char:EOLhyphen"/>men and Marriners, who are eſteemed the <hi>Bulwark</hi> of the Nation, as you have done? It is obſervable, that by your Savage and Barbarous Practice, above 70000 of them has been driven into the other World, and above 100000 more has been quite run out of their Pay during the late War, and meerly to gratify your Ambitious and Barbarous Humors.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Prethe talk no more of that, you have had my Anſwer, now hear me; you charge me and my Friends of Murther and Barbarity, when e<g ref="char:EOLhyphen"/>very Body knows that the Informers are the greateſt Villains and Mu<g ref="char:EOLhyphen"/>therers in the whole Nation; for were it not for them we ſhould have no hanging nor burning of the hand, no pilloring, whiping or baniſhing of Men as we had, nor no ſiningand impriſoning of them, <hi>&amp;c.</hi> And therefore it is plain, you are the greateſt Rogues and Villains, it is you that are the occaſion of ſo many miſchiefs, how happy would this Nati<g ref="char:EOLhyphen"/>on be if you were out of it. I Remember a Story about the Phyſitians, who being found Pernitious and Fatal to the People of <hi>Rome,</hi> they were Baniſhed out of the City, and none ſuffered to Inhabit amongſt them for the ſpace of 600 Years, the People making an Univerſal Medicine of Cabbage, whereby they enjoyned long Life and Health, with a great deal of Joy and Felicity. And truly, it is my Opinion, if the Informers were Hanged or Baniſhed out of this Kingdom, we might enjoy the ſame Happineſs, and truly, I would be one of the firſt that would ſet both my hands to ſo good a work.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Really I believe you, but what makes you banter the Informers at ſuch a rate.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Becauſe they are the Villains that are the occaſion of all thoſe mi<g ref="char:EOLhyphen"/>ſeries that I have declared, and of all the misfortunes that can befal us.</p>
+            </sp>
+            <sp>
+               <pb n="13" facs="tcp:135721:9"/>
+               <speaker>In.</speaker>
+               <p>I ſay, they are not the occaſion of any of them, it is their own Treaſons, Murthers, Fellonies, and other Vicious and Wicked deeds and practices, that is the occaſion of all your misfortunes.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Nay, then I'll be Hanged, for there is no Man that is ſuch a Fool, that after he has Committed an unlawful Act as you Call it, tha will In<g ref="char:EOLhyphen"/>form againſt himſelf, and therefore it is plain, you Informers are the cauſe of it.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Yea, I do confeſs we are the ſecondary cauſes, and for that Reaſon we are eſteemed and rewarded by Vertuous and Honeſt Men, who well know if we did not do our Duty to our King and Countrey, then no Man could be in ſafety; for the ſame Law that forbids Theft, the ſame Puniſhes the Thief and Creates Informers, but to turn your <hi>Roguiſh</hi> Si<g ref="char:EOLhyphen"/>militude to your ſelf. If all Rogues and Villains were Baniſhed out of the Nation, the Informers would dye in Courſe, and tho you rail againſt Informers, your Quarrel is really againſt Honeſty, and would deſtroy her if it were not for Informers; Like the Wolf in the Fable, who uſed all his Rhethorick to remove the Dogs from the Sheep, that he might the more greedily devour them.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Then ſince you are ſo ſtiff in the matter, Pray tell me how long you have been an Informer?</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Not ſo long as you have been a Cheater, and truly, if you had not been a Cheater, I could not have been an Informer; For indeed, an In<g ref="char:EOLhyphen"/>former is the Off-ſpring of a Cheater, and there is a greater Alliance between us then you diſcern, and you ought to have a Patternal and Na<g ref="char:EOLhyphen"/>tural Love for Informers. Foraſmuch as they are your Natural Chil<g ref="char:EOLhyphen"/>dren, the Fruit and Product of your own Bowels, for as Covetouſneſs begets Rogues, and Cheaters, ſo Rogues and Cheaters beget Informers. For where there is no Law, there is no Tranſgreſſion, ſo where there is no Law-breakers, there is no Informers. So that if you will conſider how long you have been a Cheater, you may partly gueſs how long I have been an Informer.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Why, then, if I make my Calculation from thence, which looks ve<g ref="char:EOLhyphen"/>ry feaſable, I'll tell you, that I was born Honeſtly, I was Named Honeſt, and Chriſtened and Educated Honeſtly; and ſo I lived and continued, until I got into the Kings Service, where I ſoon met with ſuch ſtrong motives that forced me to turn Cat in Pan, and to get Money, I ſoon changed my Principle and Opinion too.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Why, is the Kings Service, which uſed and ought to be the Seat of Vertue, become the School of Vice? Is that ſo Infectious as to Poyſon Men Principles and Opinions?</p>
+            </sp>
+            <sp>
+               <pb n="14" facs="tcp:135721:10"/>
+               <speaker>Ch</speaker>
+               <p>No, not the Service it ſelf, but ſome Perſons Imployed in it, it was they Poyſoned me, for if one ſcabby Sheep will ſpoil a whole flock; how was it poſſible that I could eſcape amongſt ſo many, for being Prompt by the Precepts and Example of others to do as they did; And it being continually ſounded in mine Ears, that there was a Cheating Trade in faſhion, and that they were Fools and Rogues that had not a hand in it, and that Honeſty was looked on with an Evil Eye, they were Accounted as Punies and Cowards, and that many for that Reaſon had been diſmiſed; whereupon I even tack't about and ſteered the common courſe, and that to curry favour with the times, as one wittily obſerves, tell me your Company and I'll tell you your manners.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>But then, when you changed your courſe, you ſhould have chang<g ref="char:EOLhyphen"/>ed your Name too; and not added Hypocriſie to Cheating, it being my Opinion that every Man ſhould appear in his proper Colours, and neither deny his Name or Profeſſion.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>But I will not allow of that Doctrine, for then every Man that commits an unlawful Act, muſt make it has Profeſſion, which is wholly repugnant to the moad of the times; for we find by daily experience, and that every Seſſions produces freſh Inſtances, that moſt Men of Evil Principle do go by ſeveral Names, and are often Arreigned by the Name of <hi>A. B.</hi> alias, <hi>C. D.</hi> alias, <hi>E. F.</hi> alias, <hi>G. H.</hi> &amp;c. Whereby it is manifeſt, that Men of bad Principles do frequently change their Names, and if it were poſſible, would change their Natural ſhapes too, as they do their Garbs, rather then be diſcovered, as is Intimated by <hi>Don Quevedo</hi> in his Dream concerning the Reſurrection, when one pretended his Body and Soul was miſmacht, another had got a head that was none of his own, and others ran away from their own Bodies, becauſe they would not be known: And <hi>Mahomet,</hi> and <hi>Jack</hi> of <hi>Leyden,</hi> was ſo aſhamed of their own Names, that they would aſſume the Name of the Traytor <hi>Judas,</hi> and did quarrel and contend for the ſame, and altho I was a Knave by profeſſion, yet I continued the Name of Honeſty, and that purely to co<g ref="char:EOLhyphen"/>ver the Crimes of Knavery; but however, as you ſay, you ae not a pet<g ref="char:EOLhyphen"/>ty Informer, ſo I am not a petty Fogger, for I did not Play the Knave for triffles: No, I did not change my Name for nothing, for I made my own market and got Honey enough by the bargain, but Prethe tell me, what it is I am Proſecuted for?</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Why, it is for Plundering of Prizes that you have taken, and Em<g ref="char:EOLhyphen"/>bezzeling Ships and Goods, and Converting the ſame to your own uſe, without giving any Account thereof to the King, or regard to the Ships Company, for if you had but made a fair Diſtribution amongſt them, I believe they would not have complained againſt you.</p>
+            </sp>
+            <sp>
+               <pb n="15" facs="tcp:135721:10"/>
+               <speaker>Ch.</speaker>
+               <p>Why ſhould I be Proſecuted for that? When I know that in the <hi>Dutch</hi> Wars, and in the beginning of the late War, it was Cuſto<g ref="char:EOLhyphen"/>mary and Lawful to plunder all that was above the Gun Deck in any Prize; Except Arms, Ammunition and Tackling, and that by Vertue of an Act of Parliament, made in the 13th. Year of King <hi>Charles</hi> the IId. and ſince it is ſo, Pray where is the offence in me, more then in others? As for my part, I took but my degree in doing as others did.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Ay, but you have broke that Cuſtom, and out-run that Law, and a<g ref="char:EOLhyphen"/>nother too; for beſides your Pillaging above the Gun Deck, you have plundered all Ships and Goods too, Embezzled and Sold them, which is a great Cheat and a Breach of truſt too.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>The former Law I don't much fear, for if I am tried before a Court Marſhal upon the Breach of that Statute; I don't doubt, but I ſhall come off well enough.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>But you are not Proſecuted upon that Statute, neither to be tried by a Court-Marſhal now.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>Pray where muſt I be tried then? And upon what Statute, and when was it made?</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Why, you are Proſecuted upon the Statute of <hi>Anno Quarto,</hi> and <hi>Quinto</hi> of his preſent Majeſty, Intituled an Act for encouraging of Pri<g ref="char:EOLhyphen"/>vateers, <hi>&amp;c.</hi> Whereby it is provided that no Embezzelments ſhall be made of Prize Goods, taken or retaken from His Majeſties Enemies; but that all ſuch Goods with the Arms, Ammunition and Furniture of ſuch Ships ſhall be reſerved intire and free from ſuch Embezzelments, and ſhall not be pillaged in any Caſe whatſoever; But that all ſuch Ships and Goods ſhall be delivered to ſome Agent belonging to the King, and ſhall be ſold by Inch of Candle for the beſt advantage, and that three tenths of the neat proceed after all Charges allowed, ſhall be divided and paid in proportion to the ſeveral Officers and Marriners that were at the taking of them; beſides 10 Pound allowed for ever piece of Ordnance in Ships, taken or deſtroyed under the Commiſſion of His Majeſties E<g ref="char:EOLhyphen"/>nemies. And that all Officers offending againſt this Statute, ſhall an<g ref="char:EOLhyphen"/>ſwer the Goods by them Embezzeled, and ſhall forfeit 500 <hi>l.</hi> and be diſ<g ref="char:EOLhyphen"/>abled from bearing any Office under His Majeſty for the ſpace of 7 Years, and upon this Statute you are Proſecuted in His Majeſties Court of <hi>Ex<g ref="char:EOLhyphen"/>chequer.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Ch</speaker>
+               <p>Is not that Act repealed? I know there was a Bill, 'twas read the laſt Seſſions of Parliament for repealing part of that Act, by Indemni<g ref="char:EOLhyphen"/>fying Captains of ſuch penalties and diſabilities, as might be Inflicted on them on pretence of Embezzeling Prize Goods, and truly, I made all the intereſt I could to put it forward.</p>
+            </sp>
+            <sp>
+               <pb n="16" facs="tcp:135721:11"/>
+               <speaker>In.</speaker>
+               <p>I do believe you, but you were groſly miſtaken, by thinking to Im<g ref="char:EOLhyphen"/>poſe or put tricks on that Honourable Houſe, for altho they are always ready to relieve the guiltleſs, yet they are as careful to puniſh offenders; Indeed, had your Allegations proved as they were repreſented to them, you might have depended on them for relief, but they were ſo well poſ<g ref="char:EOLhyphen"/>ſeſs'd of the truth of the Fact charged againſt you, and of the great Em<g ref="char:EOLhyphen"/>bezzelments made by you, and of the ſeveral miſmanagements com<g ref="char:EOLhyphen"/>mitted by you during the late War, that they thought fit to drop that Bill and Leave you to the Law; Knowing that if you were Proſecuted for pretended Embezzelments, the Court upon Tryal would relieve you, and altho you may think it unreaſonable to forfeit and pay the Penalty of that Act, yet I tell you, you have no cauſe to complain, for before that Act was made, it was then Death for any Man to Embezzel any Arms, Ammunition, or Tackling of any Prize, but you have Embezzeled Ship, Cargo, Tackle, <hi>&amp;c.</hi> To a great Value, and therefore I think you are kindly uſed, if you can be excuſed for 500 <hi>l.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>That is not all, I ſhall be diſabled from ſerving His Majeſty for the ſpace of ſeven Years, and loſe my ſhare of Prize Money too.</p>
+            </sp>
+            <sp>
+               <speaker>Hon.</speaker>
+               <p>Your ſhare of Prize Money cannot be much, by reaſon you Embez<g ref="char:EOLhyphen"/>zeled the whole, and Converted the Money to your own uſe, if you have lately given any Account to the Commiſſioners for Prizes, it is a thing of ſmall moment, your ſhare of that will amount to little; as to the loſing of your Commiſſion I think it very reaſonable, that thoſe who have be<g ref="char:EOLhyphen"/>trayed their truſt and cheated the King and Seamen as you have done, ſhould be diſmiſed from any further Service in this Government, the Juſtice of the Court will decide the Controverſie according to the merits of the cauſe.</p>
+            </sp>
+            <sp>
+               <speaker>Ch.</speaker>
+               <p>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Life you ſtartle me now, I did not Dream of this, yet I muſt confeſs, I have heard as much, but I ſwear I did not mind it, this is very ſevere; but I hope, my good Service that I have perform'd in ſerving the King and Countrey will attone for my miſcarriage, I'll give that in as a ſpecial Plea in my defence, or I'll deny the charge, for what you ſay, is no Proof.</p>
+            </sp>
+            <sp>
+               <speaker>In.</speaker>
+               <p>Well, you may plead, or deny what you pleaſe; I doubt, that will avail you little, for if there want proof, your whole Ships Company can prove the fact, and as for your ſerving the King and Countrey, it is but a Jeſt: I have heard you ſay that your chiefeſt, nay, your whole deſign was to ſerve your ſelf. And indeed, that is ſufficiently manifeſt to the whole Nation; but however, I would not have you diſpair, you have good Friends and Great ones too, and I know, that Friendſhip may avail you much in this Caſe.</p>
+            </sp>
+            <sp>
+               <pb n="17" facs="tcp:135721:11"/>
+               <speaker>Che.</speaker>
+               <p>Yea, I have good Friends, it was them that preferred me, and would do me any Kindneſs they can; but now I am proſecuted in Courts of Juſtice, and am to be Tryed by Juſtice her ſelf, who holds the Scales upon an equal Bal<g ref="char:EOLhyphen"/>lance, and will not be buſied by Flattery, or Friendſhip.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>Why then you ſeem to be afraid of Juſtice?</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>Yes I am, I don't know how to look her in the Face, the very Name ſtrikes a Terrour to me, and I know ſhe'll take their part.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>Good lack, how Men differ in Opinions! She is, In my mind, cer<g ref="char:EOLhyphen"/>tainly the moſt Beautiful and Chaſte, the moſt Modeſt and Vertuous Wo<g ref="char:EOLhyphen"/>man in the whole World, and is, by all Honeſt Men, Adored and Admired as our mighty Preſerver and Defender from Rage, Violence, and Oppreſſi<g ref="char:EOLhyphen"/>on, <hi>&amp;c.</hi> and the King is a great Admirer of her, he hugs her in his Bo<g ref="char:EOLhyphen"/>ſome, and preſerves and maintains her as one of the higheſt Rank; and to be plain, now ſhe is not ſupported and protected in her full Splendour and Grandure, the People cannot be ſecure in their Perſons, or Eſtates; be<g ref="char:EOLhyphen"/>ſides I never heard that ſhe was any Partaker, and I know it is impoſſible that ſhe can.</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>Well, I don't know what to ſay to her; but if I were to chooſe, I would be Tryed by Mercy in another Court; for I cannot indure to think of Juſtice in Authority.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>You may talk what you pleaſe, you muſt be Tryed before her, but Mercy will be there; for Juſtice will not act or do any thing without Mercy, for ſhe is her own Siſter.</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>Ay, but I have known Mercy to act without Juſtice many a time; for it is not long ſince my Self, my Wife, and others of my Family, were car<g ref="char:EOLhyphen"/>ried before a Juſtice to anſwer the Complaint of a Widdow, whom, iudeed, we had all Abus'd, but Mercy hectored the Widdow, and her two Friends that came to attend her; one of them he threatned to Bind over, for ſpeak<g ref="char:EOLhyphen"/>ing in the Widdows Behalf; but that not frightning him, the Juſtice thun<g ref="char:EOLhyphen"/>dered him out of Doors, and ſilence the other; and the Widdow being Abaſhed at thoſe rugged Proceedings, although her Complaint was con<g ref="char:EOLhyphen"/>firmed by the Affidavits of ſeveral Perſons, was ſet aſide, and thereby my Self, and Family, were mercifully delivered: O Bleſſed Juſtice and Mercy!</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>O! I remember that, I was there then, it was I that was Threatned and thundred out of Doors; but that wa'nt Juſtice that did that. he was only called ſo; and that Mercy that was there, is a Monſter, one that will ruine a Thouſand good People, to gratifie one Friend.</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>I ſuppoſe he ſmelt that you were an Informer, that made him turn you out of his Houſe, for fear that you would have Opened or Explained the Widdows Cauſe; truly I did not care to ſee you there my ſelf, eſpeci<g ref="char:EOLhyphen"/>ally when you pray'd Mr. Juſtice to caſt an Eye, or look over that Affi<g ref="char:EOLhyphen"/>davit my Men Swore againſt me, for breaking open the Widdow's Son's Cheſt; truly I was afraid he would have Bound me to have anſwered it, which he would certainly have done, if he had not been a merciful Man: I
+<pb n="18" facs="tcp:135721:12"/>proteſt I was glad to ſee him let fly at you, and ſnatch the Affidavit out of your Hand, and throw it one way, and ſend you another; I wiſh'd with all my Heart he would have ſent you to Priſon.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>Truly I believe you; but, I conceive, he had more Wit than Juſtice; for if he had Committed me, I would have Inform'd againſt him, to that great Lady Juſtice, and have ſued him for Satisfaction; and that, I believe, made him afraid to execute his Threats; for I'll tell you that Juſtice her ſelf has decreed, That if any Juſtice of the Peace ſhall preſume to Commit or Puniſh any Perſon contrary to her own Dictates, that then in ſuch Caſes ſhe will puniſh them; and for that reaſon ſhe has decreed, That none ſhall exe<g ref="char:EOLhyphen"/>cute the Office of a Juſtice, that has not a ſufficient Eſtate to make Satisfaction to thoſe Injured by them, many of them has paid Sawce for their Injuſtice and Partiality.</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>Well, I don't know what to ſay to this great Lady Juſtice that you talk of; yet I remember now, I have had Buſineſs with her my ſelf ſeveral times; and truly, I always received a great deal of Satisfaction from her; for I obſerved, that ſhe made no difference between Rich and Poor, No<g ref="char:EOLhyphen"/>ble and Baſe, but decided all Controverſies, according to the Merits of the Cauſe: Beſides, I muſt confeſs, that ſhe has beſtowed an Hundred Favours on me, by preſerving me from Violence, and reſtoring me to my Rites and Priviledges.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>Why then ſince you have received ſo many Favours formerly, what makes you fear her now?</p>
+            </sp>
+            <sp>
+               <speaker>Che.</speaker>
+               <p>Why truly my Caſe is different now, for then I appeared on the Right ſide with a good Cauſe, but now I muſt ſtand on the Left to anſwer a bad one; which puts me in mind of one of our Captains, who not long ſince was fined an Hundred Pounds for Embezeling the Naval Stores, and another you told me of, that paid three Hundred Pounds for Cheating the King of his Cuſtoms; beſides the little Gunner that hangs in the Air at <hi>Chatham,</hi> for Embezeling of one Barrel of Gunpowder, and rather than I'll fall under thoſe Sentiments, I'll follow the Example of that great Hero that killed Lieutenant <hi>Cole</hi> for Inform<g ref="char:EOLhyphen"/>ing againſt him; yea, I'll Sacrifice him whereſoever I meet him, that dare pre<g ref="char:EOLhyphen"/>ſume to Inform againſt me.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>I muſt confeſs, that a deſperate Diſeaſe requires a deſperate Cure; but alas, ſuch deſperate Actions does not extinguiſh but augment the Offence; and although you may Imagine ſuch raſh and violent Actions are the Enſigns of Courage and Magnanimity, yet they are no more than the Effects of Madneſs and Deſpair: Indeed a Sword is a neceſſary Companion for a Prudent and well govern'd Man, but it is pity that Fools and Madmen ſhould be ſuffered to wear them: I remember t'other Day a Bravado drew his Sword in a great paſſion, but when he ſee it naked in his Hand, he did quiver and ſhake; in<g ref="char:EOLhyphen"/>deed I put it up for him that time, with a Proviſo, that he ſhould draw it no more in my Company; and as for that Hero you ſpeak of, I hear he was in <hi>Newgate,</hi> and was Arraigned and found Guilty of Man-ſlaughter, for that barbarous Action, which, if he had not been a Fool, he might have complied
+<pb n="19" facs="tcp:135721:12"/>with his Marriners, and have ſaved Money enough to have maintain'd him<g ref="char:EOLhyphen"/>ſelf for ever; but I perceive my Diſcourſe ſignifies nothing to you, and therefore ſince you care not for my Company, or Converſation, I'll bid you heartily Adieu, for I muſt call upon Mr. <hi>Friendly,</hi> an Acquaintance of yours.</p>
+            </sp>
+            <sp>
+               <speaker>Inf.</speaker>
+               <p>Mr. <hi>Friendly,</hi> Sir, I am come to thank you for the many Favours I have received of you, and do give you many Thanks therefore, and am hear<g ref="char:EOLhyphen"/>tily glad to ſee you in good Health.</p>
+            </sp>
+            <sp>
+               <speaker>Friendly.</speaker>
+               <p>Truly Neighbour this is kindly done of you, and I am glad to ſee you well; pray Sir ſit down, for I have ſomething to ſay to you that is ſerious, and was thinking to ſend for you to diſcourſe you, and adviſe you in a Matter of great Importance, and my Wife <hi>Civility</hi> is very urgent with me about it.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly, Sir, as you have ſo often obliged me, ſo I ſhall eſteem my ſelf happy in your Favour, and ſhall thankfully take and follow your Advice in any thing that concerns me.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>I hope you will, for you may aſſure your ſelf that I ſhall adviſe you nothing but what ſhall be honeſt, and for your good: But to proceed, pray when did you ſee Capt. <hi>Honeſty?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly, Sir, I juſt parted with him; he and I has had a long Con<g ref="char:EOLhyphen"/>ference about Cheating and Informing.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Pray what was the Subject of your Diſcourſe?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly I charged him Guilty of Breach of Truſt, and of Imbezeling and Purloining of Prizes, and Prize Goods, and of Abuſing and Cheating his Officers and Seamen; and he charged me, and brands me for an Infor<g ref="char:EOLhyphen"/>mer, and ſays they are Rogues and Villains that deſerve to be Hang'd or Baniſh'd; and after a long Diſcourſe <hi>Pro</hi> and <hi>Con,</hi> we parted very Friendly.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>I am glad of that, for I know he is a Huffing Spark, and one that ſcorns to take an Affront.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>And truly I ſcorn to give him any.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Indeed I always looked upon you as a Man of a good even Temper for that; but pray how comes he to charge you with the Scandalous Name of an Informer?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Becauſe I Proſecute him and ſome others for cheating the King and Country.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Why, are you concerned in that? I heard indeed, that you and ſome other Perſons, had Informed againſt ſeveral Captains, but I could not believe you were concerned in it; hang it, that's a Naſty Scanda<g ref="char:EOLhyphen"/>lous Buſineſs indeed; for ſhame, for ſhame leave that off: Prithee ſee what Lieutenant <hi>Cole</hi> got by Informing againſt Captain <hi>Elliot:</hi> Prithee let me adviſe and perſwade you to leave it off, and betake your ſelf to ſome<g ref="char:EOLhyphen"/>thing that is Honeſt.</p>
+            </sp>
+            <sp>
+               <speaker>Civility.</speaker>
+               <p>O dear, is Mr. <hi>Fidelity</hi> an Informer? I hope not, I am heartily ſorry to hear that; I hope, Husband, you will adviſe him better; pray,
+<pb n="20" facs="tcp:135721:13"/>my Dear, ſee what you can do: Pray Neighbour, be Adviſed by my Hus<g ref="char:EOLhyphen"/>band.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Yes, Madam, I ſhall be glad of his Adviſe; I know he is a Wiſe Man, and one that is able to give good Counſel.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Then if you will take my Advice, I would deſire you to conſider what a Reproach and Scandal you'll bring upon your ſelf by Informing, and how you will be ſlighted and hated by all good Men; and truly if you don't decline it, I ſhall be very ſhy of your Company my ſelf: An Informer! Fie, fie, it is the hatefulleſt Name that is; pray leave it, pray let me per<g ref="char:EOLhyphen"/>ſwade you to decline it, and follow your Trade, I know you may have Buſineſs enough, and I will be a help to you in Buſineſs my ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Civ.</speaker>
+               <p>Pray good Neighbour mind my Husband, and take his Advice, I am ſure he will give you good Counfel; pray don't he adviſe you well, and ſpeak a great deal of reaſon?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Yes truly, I like his Diſcourſe, and thank him for his good Coun<g ref="char:EOLhyphen"/>ſel, but I don't apprehend why an Informer ſhould be ſo hateful; I know Vicious Men that break Bounds by Cheating, Robing, and Oppreſſing Ho<g ref="char:EOLhyphen"/>neſt People, cannot endure him; I know they hate him for diſcovering their Villanies; but what of that, would you have him decline an Act of Juſtice, to curry favour with Rogues and Villains, whom every Honeſt Man ought to ſuppreſs? Truly I cannot ſee any reaſon that you or any Body elſe, I mean any honeſt Body has to ſlight me for that; for every Body knows. that the detecting of Villains, is the preſerving of Honeſt People; and truly I met with none of them but what does highly commend me for what I do.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>I don't know who you call Honeſt People, the general Vogue of the People diſcovers an Abhorrence of an Informer; the very Name, with<g ref="char:EOLhyphen"/>out regard to the Extent or Office of it, is an Odium of the moſt hateful<g ref="char:EOLhyphen"/>leſt Name amongſt us.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>You talk of the general Vogue of the People; why truly I think no Man in his right Wits ought to mind the report of the Popular Multitude; for they are as variable as the Wind, which is always ſhifting, or like the Moon, never conſtant; truly I think we ought to regard the Advice of one Honeſt Man, far above the Report of the biaſſed and deceived Mul<g ref="char:EOLhyphen"/>titude.</p>
+            </sp>
+            <sp>
+               <speaker>Civ.</speaker>
+               <p>Why do you think my Husband is biaſs'd, or deceived? No, I ſcorn your Words, I'd have you to know, he underſtands himſelf as well as the beſt Man in our Pariſh.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Yes, Madam, I believe that; but he may be miſled by falſe Notions, as many Thouſands are in Opinions: As for Inſtance, The <hi>Papiſts</hi> do affirm that Bread once Conſecrated, is no more Bread, but that it then is the real Fleſh and Blood of our Bleſſed Saviour, and do declare all thoſe Hereticks, that will not believe it; and many Thouſands have ſuffered Death, becauſe they would not own it; and as that Argument has been maintain'd by all the <hi>Romiſh</hi> Tribes, ſo it has been as ſtiffly oppoſed by all the <hi>Proteſtants</hi> in
+<pb n="21" facs="tcp:135721:13"/>the Univerſe; ſo then, if the Name of an Informer, which you ſay, and I believe, is ſuch an Odium amongſt the biaſſed or deceived People, be of ſo great Eſteem as I ſay amongſt the Honeſt, Judicious, and Unbiaſs'd ſort, then certainly I ought to adhere to them; and ſince it is impoſſible for any Man to conform in Principle to two contrary Opinions, I will decline the biggeſt Party, and ſide with the beſt, whoſe Judgment, my Conſcience bears me Wit<g ref="char:EOLhyphen"/>neſs, I ought to follow.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Yes, I know that People do differ much in Opinions, but what I ſay is reaſon, and truly I muſt tell you, I do not approve of an Informer my ſelf, <hi>I</hi> hate the very Name; let <hi>Honeſty</hi> ſay what he pleaſes, that ſhall never reconcile me to an Informer; no, I have been too much bitten by them my ſelf, you know I have uſed the Sea a great while, and have been Maſter of many a good Ship, and have made many a good Voyage, and in<g ref="char:EOLhyphen"/>deed they might have been much better, if it had not been for thoſe Catter<g ref="char:EOLhyphen"/>pillers; they took from me one Night my Longboat full of rich Goods, 'twas four Hundred Pounds damage to me my Wife knows.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Pray what did they take it by force of Arms?</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>No, they pretended they were Officers belonging to the Cu<g ref="char:EOLhyphen"/>ſtom-Houſe, and Seized them becauſe they were not Entered, nor the Du<g ref="char:EOLhyphen"/>ties paid.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Why then they were not all your own, unleſs the Duties were paid; for the King had a full and lawful Right to the Duties, that you know, and that you would have cheated him of, by making a Devil as well call it, <hi>i. e.</hi> by running them in the Night; ſo that you deſigning to Cheat the King, was Chous'd your ſelf, and truly you were ſerved right, for he that did that, did only bite the Biter.</p>
+            </sp>
+            <sp>
+               <speaker>Civ.</speaker>
+               <p>Pray Husband don't talk no more to him, he does but Banter you for your good Will; Hang him, let him go like a Knave as he is.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly I am no Knave, neither was he that Seized them Goods, for they were not properly yours.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Yes they were, for I am ſure I bought and paid honeſtly for them.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Honeſtly, pray not too much of that; how could you pretend thoſe Goods were honeſtly paid for, before the Duties were paid? You know the King had as much Right to the Duties incumbent upon them, as the Perſon that ſold them had to the Goods; ſo that then you had only a Right to the one part, which, like a Cheating Gameſter, you ventu<g ref="char:EOLhyphen"/>red againſt the other part; and, like the greedy Dog in the Fable, loſt both.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Indeed I am ſorry to hear you talk on at this rate; truly I had a better Opinion of you, and did intend upon the Return of this Voyage, to have imployed you upon my Ships Buſineſs, and aſſiſted me in carrying off ſome Goods, which ſhould have been to your Advantage, but ſince I have ſounded your Pulſe I'll have nothing to do with you.</p>
+            </sp>
+            <sp>
+               <pb n="22" facs="tcp:135721:14"/>
+               <speaker>Fid.</speaker>
+               <p>Well, if you will not imploy me, the King will; ay, and encou<g ref="char:EOLhyphen"/>rage me to, and it is poſſible I may circumvent you in your Knaviſh and dark Deſigns.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>The King Imploy and Encourage you; no, I'll never believe that he has any Reſpect for Informers.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>That's your miſtake, for Informers are the Eyes of a King; 'tis they that keep Watch and Ward to preſerve him from Violence and Injury; for as Kings and Princes have long Arms, and wide Ears, ſo they have many Eyes; that is, the Eyes of his Subjects, whoſe Duty it is to take care that no Violence, or Injury, be attempted, or committed againſt their Soveraign.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Yes, I'll hold with you there; but what I blame you for, is for Informing againſt Honeſt Gentlemen for Breach of Truſt, and for Embezel<g ref="char:EOLhyphen"/>ing of Prizes, and running Uncuſtom'd Goods, which is a common thing now adays, and every Body would do that if they could.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Although it is Common, it is not Lawful; and though you blame me for Informing, you ought your ſelf, in ſome caſes, to turn In<g ref="char:EOLhyphen"/>former.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Who I? What would you have me turn Informer? No, I'll be Hang'd firſt.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Truly you had better be Hang'd; then be Damn'd; for if you know of any Conſpiracies againſt the King's Peace, and don't Inform, you are Forſworn.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>How can I be Forſworn, I never took a Solemn Oath in all my Life.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>No? Pray what was you and I Sworn to, when we were made Free of the City? If you have forgot, I'll tell you the Words <hi>verbatim;</hi> Ye ſhall know no Gatherings, Conventicles, nor Conſpiracies made againſt the King's Peace, but ye ſhall warn the Mayor thereof; <hi>Ergo,</hi> if you know any ſuch thing, you are Sworn to Inform.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Ho that, I had forgot that, it was ſo long ago; beſides, that's none of my Buſineſs, my care is to get an Honeſt Livelihood, in doing which, if I ſhould make a Hog or two, to ſave the Cuſtom of a parcel of Goods, would you diſcover it if you knew it?</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>You had beſt try me, you know I am obliged to do my Duty, and I think it unreaſonable that you ſhould cheat the King of his Duties; tru<g ref="char:EOLhyphen"/>ly, if I ſhould know any Perſon to rob or cheat you of your Lawful Right, I would acquaint you of it; you may call it Informing, or what you pleaſe.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Ay, that is a Neighbours part, and I ſhould heartily thank you for it, and gratifie you too, becauſe it would be for my Advantage, but diſco<g ref="char:EOLhyphen"/>vering the t'other would be to my Prejudice.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Then I conceive you are altogether for Self-Intereſt, you care not who Sinks nor who Swims, to cheat the King and Country too, is all one to you, ſo you get Money, you have no reſpect to Juſtice.</p>
+            </sp>
+            <sp>
+               <pb n="23" facs="tcp:135721:14" rendition="simple:additions"/>
+               <speaker>Friend.</speaker>
+               <p>Juſtice, what do ye tell me of Juſtice? I never got any thing by her, nor do I Seſire to have any thing to do with her, or to know what ſhe is, or where ſhe is.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>I believe you, but if I be not miſtaken, here ſhe is, and I'll go wait on her. Moſt Illuſtrious Madam, Heavens protect your Ladiſhip, and your Ladiſhip protect me your Vaſſal, abuſed and contemned for my Fidelity.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>That's no new thing for Fidelity to be abuſed and contemned, I my ſelf am not free from the Clamour of Evil Tongues, who, if it were poſſible, would rend and tear me to pieces, were not I ſupported by all the Powers of Heaven and Earth, and by the Power of my Supporter I'll protect you.</p>
+            </sp>
+            <sp>
+               <speaker>Fid.</speaker>
+               <p>Madam, my Safety depends on your Virtue, it is you always that muſt ſupport me, my Adverſary Injuſtice, ſupported with Fraud and De<g ref="char:EOLhyphen"/>ceit, ſeeks to devour me for complaining of their Villanies, and diſcovering their Vices.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>I have heard as much, and am an Eye-witneſs to ſome Hard<g ref="char:EOLhyphen"/>ſhips that has been put upon you, I know you are ſtiled and branded for Informing againſt Offenders, but I would not have you be diſmay'd, I'll weigh your Cauſes in an equal Ballance, and with my Sword I'll do you Juſtice; for to me it ſeemeth reaſonable, Informers ſhould have all Judicial Encouragement; foraſmuch asian Informer is the Supporter and main Pillar of the Law, and if it were not for them, the Law would be of no effect the Violaters thereof, would trample it under Foot, and the Care and Wiſdom of all Ages would become extinct; for it is not the Law it ſelf, that keeps Mankind in Obedience, but the Vigilancy and Integrity of thoſe Perſons, who, in reſpect to the Safety, and Well-being of their King and Country, do take care to preſerve that Sacred part of the Government, that it may not be deſtroyed and torn to pieces; there is many good Laws now in force, which were intended for good purpoſe; one was lately made for puniſhing Profaneneſs and Immorality, and was commended by all good Men, but for want of Courage, or Encourage<g ref="char:EOLhyphen"/>ment, I have not heard of any ſo good as to put the ſame in Execution, unleſs occaſioned by Envy and Malice, and then one Blaſphemer has In<g ref="char:EOLhyphen"/>formed againſt another; which appeared to me, as if the Devil had been correcting Vice: The other Laws for preventing Frauds, Colluſions, and other general Calamities in the Government, has been ineffectual, by reaſon of the Negligence, or Connivance of ſome Inferiour Magiſtrates, or for want of due Encouragement to Informers.</p>
+               <p>I have heard <hi>Honeſty,</hi> and <hi>Friendly,</hi> with his Wife <hi>Civility,</hi> and although they Rail, Cavil, and Quarrel with you, it is my Judgment that they are in the Fault, for if they were Faultleſs, you would not, nay, you could not hurt them; and therefore what they ſay is only to diſcou<g ref="char:EOLhyphen"/>rage you, that ſo they may the better carry on their Chearing and Clan<g ref="char:EOLhyphen"/>deſtine Practiſes; wherefore I do Adviſe and Direct you to perſevere in
+<pb n="24" facs="tcp:135721:15"/>what you have ſo faithfully and juſtly undertaken, and I will Protect and Encourage you ſo far as the Rules of Juſtice will permit; being my ſelf appointed, commanded, and reſolved to Adminiſter Juſtice, with e<g ref="char:EOLhyphen"/>qual diſtribution to Rich and Poor, without reſpect of Perſons; being well aſſured, that nothing is more acceptable in the Sight of God, nor more pleaſing and profitable to the King and Kingdom. The King of His princely Wiſdom hath proclaimed Days of Solemn Faſt, to be Re<g ref="char:EOLhyphen"/>ligiouſly obſerved throughout the Kingdom, for Adverting thoſe Judgments Impending on this Nation: The Almighty made an Overture to the Peo<g ref="char:EOLhyphen"/>ple of old by the Prophet <hi>Jeremiah,</hi> as in the firſt Verſe of the fifth Chap<g ref="char:EOLhyphen"/>ter, <hi>Run ye too and fro,</hi> &amp;c. this ſhall be my Task, this will I perform by the Power of the Almighty who knoweth but that ſo good a Work may put a ſtop to the Groans and Cries of the Oppreſſed, and thereby Avert thoſe Impending Judgments, that the Oppreſſions and Injuſtice of this Na<g ref="char:EOLhyphen"/>tion juſtly hath deſerved.</p>
+            </sp>
+            <q>
+               <bibl>
+                  <hi>Deut. xvi. 19.</hi>
+               </bibl>
+               <p>Thou ſhalt not wreſt Judgment, thou ſhalt not reſpect Per<g ref="char:EOLhyphen"/>ſons, neither take a Gift, for a Gift blindeth the Eyes of the Wiſe, and perverteth the Words of the Righteous.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>2 Chron. xix. 6.</hi>
+               </bibl>
+               <p>Take heed what you do, for ye Judge not for Men, but for the Lord, who is with you in Judgment.</p>
+            </q>
+            <p>
+               <hi>Quis adipiſci veram gloriam volant Juſtitia fungantur officiis:</hi>
+            </p>
+            <p>They that will get true praiſe, let them diſcharge the Duties of Juſtice.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:135721:15"/>
+         </div>
+      </body>
+   </text>
+</TEI>
